@@ -1,0 +1,39 @@
+<ion-view view-title="Keypad">
+  <ion-header-bar class="bar-dark">
+          <h1 class="title">Select Hymn</h1></ion-header-bar>
+          <ion-content has-header="true" padding="true">
+          <div class="dialer">
+          <div class="hymn-display">
+               <input class="col" type="text" ng-model="number" placeholder="_ _ _" readonly="readonly">
+               <a class="col" ng-click="bksp()">delete</a>
+          </div>
+          <!--div class="row row-center">
+               <input class ="col" type="text" ng-model="number" placeholder="_ _ _" readonly="readonly">
+               <a class="col" ng-click="bksp()">bksp</a>
+          </div-->
+          <div class="row row-center">
+               <a class="col" ng-click="add(1)">1</a> 
+               <a class="col" ng-click="add(2)">2</a> 
+               <a class="col" ng-click="add(3)">3</a>
+          </div>
+          <div class="row">
+               <a class="col" ng-click="add(4)">4</a> 
+               <a class="col" ng-click="add(5)">5</a> 
+               <a class="col" ng-click="add(6)">6</a>
+          </div>
+          <div class="row">
+               <a class="col" ng-click="add(7)">7</a> 
+               <a class="col" ng-click="add(8)">8</a> 
+               <a class="col" ng-click="add(9)">9</a>
+          </div>
+          <div class="row">
+               <a class="col red-bkg" ng-click="clear()"><i class="icon ion-android-close"></i></a> 
+               <a class="col" ng-click="add(0)">0</a> <!-- when using sliding-menu -->
+               <a class="col blue-bkg" ng-click="go()" ><i class="ion-arrow-right-a"></i></a>
+          </div> <!-- -->
+          <!--when using navigator-->
+          <!--a class="col blue-bkg" ng-click="navigator.pushPage('detail.html')"><i class="ion-arrow-right-a">href="#/app/hymn/{{number}}"</i></a--></div>
+          </div>
+          </ion-content>
+</ion-view>
+

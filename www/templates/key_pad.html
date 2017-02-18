@@ -1,0 +1,22 @@
+<!-- <ion-view class="login-view auth-view full-page-bckg" cache-view="false" view-title="Login" hide-nav-bar="true"> -->
+<!-- <div class="bar-calm"></div> -->
+<ion-view class="hymn-home" cache-view="false" view-title="Home" hide-nav-bar="true">
+    <ion-pane id="login-1">
+        <div id="login-inner">
+            <!-- <ion-content> -->
+            <ion-content scroll="false" drag-content="false">
+                <p id="login-header">Welcome<span>Enter Hymn number</span></p>
+                <div class="item-keypad item-input-inset">
+                    <label class="item-input-wrapper">
+                        <input class="inputField" type="text" ng-model="number" placeholder="_ _ _" readonly/>
+                    </label>
+                    <button class="icon ion-backspace" id="bksp_btn" ng-show="canErase" ng-click="doErase()">
+                    </button>
+                </div>
+            </ion-content>
+            <ion-digit-keyboard settings="keyboardSettings" ng-show="keyboardVisible" style="margin-bottom: 15px;"></ion-digit-keyboard>
+        </div>
+    </ion-pane>
+    <!-- </ion-pane> -->
+    </ion-content>
+</ion-view>

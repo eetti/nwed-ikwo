@@ -1,0 +1,12 @@
+{
+  "name": "efik_hymn",
+  "app_id": "b16153cb",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

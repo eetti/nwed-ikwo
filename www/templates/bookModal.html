@@ -1,0 +1,45 @@
+<!--ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Add Bookmark</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="close()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="add()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Hymn Number</span>
+          <input type="text" ng-model="newHymn.number">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Add</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view-->
+
+<div class="adic-modal" style="width: 90%; height: 90%; top: 5%; left: 5%; right: 5%; bottom: 5%;">
+    <ion-modal-view class="adic-popup">
+        <ion-header-bar>
+    <h1 class="title">Add Bookmark</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="close()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="add()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Hymn Number</span>
+          <input type="text" ng-model="newHymn.number">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Add</button>
+        </label>
+      </div>
+    </form>
+  </ion-content><!--some content-->
+    </ion-modal-view>
+</div>

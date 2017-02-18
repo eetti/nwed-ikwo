@@ -1,0 +1,29 @@
+<ion-view title="Bookmarks">
+    <ion-header-bar class="bar-dark">
+        <h1 class="title">Bookmarks</h1></ion-header-bar>
+    <ion-nav-buttons side="right">
+        <button ng-click="showPopup()" class="button button-icon ion-android-add-circle"></button>
+        <button class="button button-icon" ng-class="(edit && bookmarks.length) ? 'ion-compose' : 'ion-ios-compose-outline'" ng-click="toggleEdit()"></button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <ion-list show-reorder="edit" show-delete="edit" can-swipe="listCanSwipe">
+            <ion-item class="bold item-button-right" ng-repeat="bookmark in bookmarks" ng-click="go(bookmark)">{{bookmark}}
+                <ion-option-button class="button-positive" ng-click="share(item)">
+                    Share
+                </ion-option-button>
+                <ion-option-button class="button-info" ng-click="edit(item)">
+                    Edit
+                </ion-option-button>
+                <ion-reorder-button on-reorder="reorder(bookmark, $fromIndex, $toIndex)" class="ion-navicon"></ion-reorder-button>
+                <ion-delete-button class="ion-ios-minus" ng-click="delete(bookmark)"></ion-delete-button>
+            </ion-item>
+        </ion-list>
+        <div class="list" style="margin-top:10px">
+            <div class="item item-text-wrap center slide-in-right" ng-if="!bookmarks.length"><i style="font-size: 2em" class="icon ion-android-information"></i>
+                <p>You don't have any bookmarks yet!</p>
+            </div>
+            <button ng-if="bookmarks.length && edit" ng-click="removeAll()" class="button button-block button-assertive slide-in-right">remove all bookmarks</button>
+            <!-- <div class="row" style="padding: 0; margin-top: 10px"><a class="col button button-small" style="margin-right: 10px" ui-sref="app.keypad">Find Hymn</a> <a class="col button button-small" ng-click="addBookmark()">New Bookmark</a></div> -->
+        </div>
+    </ion-content>
+</ion-view>

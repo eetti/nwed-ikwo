@@ -1,0 +1,68 @@
+<!-- <ion-view side="center" title="Hymn #{{number}}"> -->
+<ion-view title="Hymn #{{number}}">
+    <ion-nav-buttons side="right"><a class="button button-clear" ng-click="toggleBookmark(number)"><i class="ion icon" ng-class="isBookmarked(number) ? 'ion-bookmark' : 'ion-ios-bookmarks-outline'"></i></a>
+        <a class="button button-icon button-clear ion-ios-information-outline small-icon" ng-click="info()"></a>
+    </ion-nav-buttons>
+    <ion-content padding="true" ng-class="{'inverted': settings.darkMode}">
+        <div ng-include="'templates/hymn/efik/' + number + '.html'"></div>
+    </ion-content>
+    <ion-footer-bar class="bar-light">
+        <button class="button button-outline button-positive ion-chevron-left" ng-click="reverse(number)"></button>
+            <button class="button button-outline button-positive ion-chevron-right pull-right" ng-click="advance(number)"></button>
+        
+    </ion-footer-bar 
+</ion-view>
+<script id="hymns-info.html" type="text/ng-template">
+    <div class="modal">
+        /*<div class="bar bar-footer bar-light">
+            <button class="button button-outline button-positive ion-chevron-left" ng-click="reverse(number)"></button>
+            <div class="title">Title</div>
+            <button class="button button-outline button-positive ion-chevron-right pull-right" ng-click="advance(number)"></button>
+        </div>*/
+        <ion-header-bar class="bar bar-secondary">
+            <h1 class="title">Information</h1>
+            <button class="button button-positive" ng-click="hide()">Close</button>
+        </ion-header-bar>
+        <ion-content>
+            <div class="metadata">
+                <div class="row">
+                    <div class="col center bold stable-bg">{{metadata.refs.chin}}
+                        <span class="positive moody thin caps">Chin</span></div>
+                    <div class="col center bold stable-bg">{{metadata.refs.span}}
+                        <span class="positive moody thin caps">Span</span></div>
+                    <div class="col center bold stable-bg">{{metadata.refs.rus}}
+                        <span class="positive moody thin caps">Rus</span></div>
+                </div>
+                <div class="row">
+                    <div class="col center bold stable-bg">{{metadata.refs.tag}}
+                        <span class="positive moody thin caps">Tag</span></div>
+                    <div class="col center bold stable-bg">{{metadata.refs.fra}}
+                        <span class="positive moody thin caps">Fra</span></div>
+                    <div class="col center bold stable-bg">{{metadata.refs.por}}
+                        <span class="positive moody thin caps">Por</span></div>
+                </div>
+                <div class="list card">
+                    <div class="item item-icon-left">
+                        <i class="icon ion ion-document-text"></i>
+                        <h2>Lyrics</h2>
+                        <p>{{metadata.lyrics}}</p>
+                    </div>
+                </div>
+                <div class="list card">
+                    <div class="item item-icon-left">
+                        <i class="icon ion ion-music-note"></i>
+                        <h2>Music</h2>
+                        <p>{{metadata.music}}</p>
+                    </div>
+                </div>
+                <div class="list card">
+                    <div class="item item-icon-left">
+                        <i class="icon ion ion-stats-bars"></i>
+                        <h2>Meter</h2>
+                        <p>{{metadata.meter}}</p>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </div>
+</script>

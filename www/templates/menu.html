@@ -1,0 +1,42 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-positive nav-title-slide-ios">
+            <ion-nav-back-button class="button-icon ion-arrow-left-c">
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"> </ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" width="240" class="add-background" expose-aside-when="large">
+        <!-- <ion-header-bar class="bar-stable">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar> -->
+        <ion-content>
+            <div class="list menu-header">
+                <a class="custom-item item item-thumbnail-right">
+                  <img src="img/efik_hymn.png">
+                  <h2>Nwed Ikwo</h2>
+                  <h4>Efik Hymnary</h4>
+                </a>
+            </div>
+            <ion-list class="menu-list item-borderless">
+                <ion-item menu-close class="item item-icon-left item-borderless" ui-sref-active="current" ui-sref="app.keypad">
+                    <i class="icon ion-ios-home"></i> <span>Home</span>
+                </ion-item>
+                <ion-item menu-close class="item item-icon-left item-borderless" ui-sref-active="current" ui-sref="app.bookmark">
+                    <i class="icon ion-ios-bookmarks"></i> <span>Bookmark</span>
+                </ion-item>
+                <!-- <ion-item menu-close href="#/app/about">
+                    About
+                </ion-item> -->
+            </ion-list>
+        </ion-content>
+        <ion-footer-bar class="menu-footer">
+            <!-- <ion-item class="" menu-close href="#"> -->
+            <!--DONT REMOVE COMPONENT-->
+        </ion-footer-bar>
+    </ion-side-menu>
+</ion-side-menus>
