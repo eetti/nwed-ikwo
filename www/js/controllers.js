@@ -11,7 +11,6 @@ angular.module('starter.controllers', ['ngCordova'])
     $scope.success = null;
     var numberOfHymns = 366;
 
-
     $scope.keyboardSettings = {
         showLetters: true,
         roundButtons: true,
@@ -19,9 +18,7 @@ angular.module('starter.controllers', ['ngCordova'])
         theme: 'opaque-white',
         resizeContent: {
             enable: false,
-            // element: 'ion-pane'
         },
-        // roundButtons: true,
 
         action: function(number) {
             var a = $scope.number;
@@ -43,7 +40,6 @@ angular.module('starter.controllers', ['ngCordova'])
         // now backspace
         leftButton: {
             html: '<i class="icon ion-backspace"></i>',
-            // html: '<i class="icon ion-close-circled"></i>',
             action: function() {
                 $scope.doErase();
             },
@@ -52,7 +48,6 @@ angular.module('starter.controllers', ['ngCordova'])
                 bgColor: 'transparent',
                 activeBgColor: 'rgba(0, 0, 0, 0.50)',
                 borderColor: '#fff'
-                    // borderColor: 'transparent'
             }
         },
 
