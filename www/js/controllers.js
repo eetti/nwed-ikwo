@@ -12,12 +12,13 @@ angular.module('starter.controllers', ['ngCordova'])
     var numberOfHymns = 366;
 
     $scope.keyboardSettings = {
-        showLetters: true,
+        showLetters: false,
         roundButtons: true,
         width: '80%',
         theme: 'opaque-white',
         resizeContent: {
-            enable: false,
+            enable: true,
+            element : "ion-content",
         },
 
         action: function(number) {

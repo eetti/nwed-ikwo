@@ -44,7 +44,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova', 'ngStora
 .config(function($ionicConfigProvider) {
   // remove back button previous title text
   // use unicode em space characters to increase touch target area size of back button
-  
+
   //$ionicConfigProvider.backButton.previousTitleText(false).text('&emsp;&emsp;');
   $ionicConfigProvider.backButton.previousTitleText(false).text('');
 })

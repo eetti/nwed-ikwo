@@ -5,7 +5,9 @@
         <div id="login-inner">
             <!-- <ion-content> -->
             <ion-content scroll="false" drag-content="false">
-                <p id="login-header">Welcome<span>Enter Hymn number</span></p>
+                <p id="login-header">Welcome</p>
+                <!-- <p id="login-header">Welcome<span>Enter Hymn number</span></p> -->
+                <p id="login-header"><span>Enter Hymn number</span></p>
                 <div class="item-keypad item-input-inset">
                     <label class="item-input-wrapper">
                         <input class="inputField" type="text" ng-model="number" placeholder="_ _ _" readonly/>
@@ -13,10 +15,14 @@
                     <button class="icon ion-backspace" id="bksp_btn" ng-show="canErase" ng-click="doErase()">
                     </button>
                 </div>
+                <!-- <ion-digit-keyboard settings="keyboardSettings" ng-show="keyboardVisible" style="margin-bottom: 15px;"> -->
+                <!-- </ion-digit-keyboard> -->
+                
             </ion-content>
-            <ion-digit-keyboard settings="keyboardSettings" ng-show="keyboardVisible" style="margin-bottom: 15px;"></ion-digit-keyboard>
+            <ion-digit-keyboard settings="keyboardSettings" ng-show="keyboardVisible" style="margin-bottom: 15px;">
+                </ion-digit-keyboard>
         </div>
     </ion-pane>
     <!-- </ion-pane> -->
-    </ion-content>
+    <!-- </ion-content> -->
 </ion-view>
