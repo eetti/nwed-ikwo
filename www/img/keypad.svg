@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7">
+            <g id="Group">
+                <rect id="Rectangle" x="0" y="0" width="375" height="667"></rect>
+                <text id="Welcome" font-family="SavoyeLetPlain, Savoye LET" font-size="40" font-weight="normal" letter-spacing="0.800000012" fill="#FFFFFF">
+                    <tspan x="139.023141" y="83.3340807">Welcome</tspan>
+                </text>
+                <text id="Enter-the-hymn-numbe" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.239999995" fill="#FFFFFF">
+                    <tspan x="118.289563" y="138.118834">Enter the hymn number</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="107.369844" cy="335.665227" rx="28.346856" ry="29.0845093" ng-click='updateFn({msg : "hi"})'></ellipse>
+                <text id="1" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="103.427844" y="337.872236">1</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="105.933063" cy="420.909621" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="4" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="101.991063" y="423.11663">4</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="189.266396" cy="335.665227" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="2" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="185.324396" y="337.872236">2</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="187.829615" cy="420.909621" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="5" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="183.887615" y="423.11663">5</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="271.162948" cy="335.665227" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="3" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="267.220948" y="337.872236">3</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="269.726166" cy="420.909621" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="6" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="265.784166" y="423.11663">6</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="104.496281" cy="506.154016" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="7" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="100.554281" y="508.361025">7</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="186.392833" cy="506.154016" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="8" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="182.450833" y="508.361025">8</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="268.289385" cy="506.154016" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="9" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="264.347385" y="508.361025">9</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="104.496281" cy="591.398411" rx="28.346856" ry="29.0845093"></ellipse>
+                <polygon id="Shape" fill="#FFFFFF" points="111.369844 590.605419 99.1698445 590.605419 104.769844 585.005419 103.369844 583.605419 95.3698445 591.605419 103.369844 599.605419 104.769844 598.205419 99.1698445 592.605419 111.369844 592.605419"></polygon>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="184.956051" cy="591.398411" rx="28.346856" ry="29.0845093"></ellipse>
+                <text id="0" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24" fill="#FFFFFF">
+                    <tspan x="181.014051" y="593.605419">0</tspan>
+                </text>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" fill="#FFFFFF" cx="266.852603" cy="591.398411" rx="28.346856" ry="29.0845093"></ellipse>
+                <polygon id="Shape" fill="#FFFFFF" points="273.615385 585.890741 272.215385 584.490741 266.615385 590.090741 261.015385 584.490741 259.615385 585.890741 265.215385 591.490741 259.615385 597.090741 261.015385 598.490741 266.615385 592.890741 272.215385 598.490741 273.615385 597.090741 268.015385 591.490741"></polygon>
+                <g id="Display" transform="translate(77.000000, 195.000000)">
+                    <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="0.5" x="0.399425287" y="1.16255605" width="215.017241" height="66.7982063" rx="33.3991031"></rect>
+                    <text id="000" font-family="AmericanTypewriter, American Typewriter" font-size="38" font-weight="normal" letter-spacing="10" fill="#FFFFFF">
+                        <tspan x="66.691" y="44">{{data.text}}</tspan>
+                        <tspan x="169.309" y="44" letter-spacing="0.759999871"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

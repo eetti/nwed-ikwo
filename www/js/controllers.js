@@ -11,6 +11,12 @@ angular.module('starter.controllers', ['ngCordova'])
     $scope.success = null;
     var numberOfHymns = 366;
 
+    // Key pad directive scope and functions.
+    $scope.data = {text:"___"};
+    $scope.updateFn = function(msg) {
+        alert(msg);
+    }
+
     $scope.keyboardSettings = {
         showLetters: false,
         roundButtons: true,
@@ -103,7 +109,7 @@ angular.module('starter.controllers', ['ngCordova'])
     };
 
 
-    
+
 })
 
 .controller('BookmarkCtrl', function($scope, $state, $stateParams, $ionicBackdrop, $cordovaToast, $localStorage, $ionicPopup, $ionicModal, $timeout, $localstorage) {
