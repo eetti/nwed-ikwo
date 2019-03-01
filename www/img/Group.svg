@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100%" height="100%" viewBox="0 0 225 565" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="226px" height="559px" viewBox="0 0 226 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="iPhone-7" transform="translate(-75.000000, -56.000000)">
+        <g id="iPhone-7" transform="translate(-75.000000, -62.000000)">
             <g id="Group">
                 <rect id="Rectangle" x="0" y="0" width="375" height="667"></rect>
                 <text id="Welcome" font-family="SavoyeLetPlain, Savoye LET" font-size="55" font-weight="normal" letter-spacing="1.86999989" fill="#FFFFFF">
@@ -13,81 +13,79 @@
                 <text id="Enter-the-hymn-numbe" font-family="AmericanTypewriter, American Typewriter" font-size="18" font-weight="normal" letter-spacing="0.360000044" fill="#FFFFFF">
                     <tspan x="85.3739995" y="144">Enter the hymn number</tspan>
                 </text>
-                <g id="Group-13" transform="translate(79.022989, 306.580717)" fill="#FFFFFF" ng-click="updateFn(1)">
+                <g id="Group-13" transform="translate(79.022989, 306.580717)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="1" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">1</tspan>
                     </text>
                 </g>
-                <g id="Group-12" transform="translate(77.586207, 391.825112)" fill="#FFFFFF" ng-click="updateFn(4)">
+                <g id="Group-12" transform="translate(77.586207, 391.825112)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="4" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">4</tspan>
                     </text>
                 </g>
-                <g id="Group-11" transform="translate(160.919540, 306.580717)" fill="#FFFFFF" ng-click="updateFn(2)">
+                <g id="Group-11" transform="translate(160.919540, 306.580717)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="2" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">2</tspan>
                     </text>
                 </g>
-                <g id="Group-10" transform="translate(159.482759, 391.825112)" fill="#FFFFFF" ng-click="updateFn(5)">
+                <g id="Group-10" transform="translate(159.482759, 391.825112)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="5" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">5</tspan>
                     </text>
                 </g>
-                <g id="Group-9" transform="translate(242.816092, 306.580717)" fill="#FFFFFF" ng-click="updateFn(3)">
+                <g id="Group-9" transform="translate(242.816092, 306.580717)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="3" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">3</tspan>
                     </text>
                 </g>
-                <g id="Group-8" transform="translate(241.379310, 391.825112)" fill="#FFFFFF" ng-click="updateFn(6)">
+                <g id="Group-8" transform="translate(241.379310, 391.825112)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="6" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">6</tspan>
                     </text>
                 </g>
-                <g id="Group-7" transform="translate(76.149425, 477.069507)" fill="#FFFFFF" ng-click="updateFn(7)">
+                <g id="Group-7" transform="translate(76.149425, 477.069507)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="7" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">7</tspan>
                     </text>
                 </g>
-                <g id="Group-6" transform="translate(158.045977, 477.069507)" fill="#FFFFFF" ng-click="updateFn(8)">
+                <g id="Group-6" transform="translate(158.045977, 477.069507)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="8" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">8</tspan>
                     </text>
                 </g>
-                <g id="Group-5" transform="translate(239.942529, 477.069507)" fill="#FFFFFF" ng-click="updateFn(9)">
+                <g id="Group-5" transform="translate(239.942529, 477.069507)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="9" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">9</tspan>
                     </text>
                 </g>
-                <g id="Group-4" transform="translate(76.149425, 562.313901)" fill="#FFFFFF" ng-click="updateFn('bksp')">
+                <g id="Group-4" transform="translate(76.149425, 562.313901)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <polygon id="Shape" points="35.2204192 29.2915181 23.0204192 29.2915181 28.6204192 23.6915181 27.2204192 22.2915181 19.2204192 30.2915181 27.2204192 38.2915181 28.6204192 36.8915181 23.0204192 31.2915181 35.2204192 31.2915181"></polygon>
                 </g>
-                <g id="Group-3" transform="translate(156.609195, 562.313901)" fill="#FFFFFF" ng-click="updateFn(0)">
+                <g id="Group-3" transform="translate(156.609195, 562.313901)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
                     <text id="0" font-family="AmericanTypewriter, American Typewriter" font-size="12" font-weight="normal" letter-spacing="0.24">
                         <tspan x="24.404856" y="31.2915181">0</tspan>
                     </text>
                 </g>
-                <g id="Group-2" transform="translate(238.505747, 562.313901)" fill="#FFFFFF" ng-click="updateFn('go')">
+                <g id="Group-2" transform="translate(238.505747, 562.313901)" fill="#FFFFFF">
                     <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.4" fill-opacity="0.15" cx="28.346856" cy="29.0845093" rx="28.346856" ry="29.0845093"></ellipse>
-                     <!-- <polygon id="Shape" points="35.1096375 23.5768394 33.7096375 22.1768394 28.1096375 27.7768394 22.5096375 22.1768394 21.1096375 23.5768394 26.7096375 29.1768394 21.1096375 34.7768394 22.5096375 36.1768394 28.1096375 30.5768394 33.7096375 36.1768394 35.1096375 34.7768394 29.5096375 29.1768394"></polygon> -->
-                     <polygon id="Shape" points="26.7142529 32.7760987 22.5142529 28.5760987 21.1142529 29.9760987 26.7142529 35.5760987 38.7142529 23.5760987 37.3142529 22.1760987"></polygon>
-
+                    <polygon id="Shape" points="26.7142529 32.7760987 22.5142529 28.5760987 21.1142529 29.9760987 26.7142529 35.5760987 38.7142529 23.5760987 37.3142529 22.1760987"></polygon>
                 </g>
                 <g id="Display" transform="translate(77.000000, 195.000000)">
                     <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="0.5" x="0.399425287" y="1.16255605" width="215.017241" height="66.7982063" rx="33.3991031"></rect>
                     <text id="000" font-family="AmericanTypewriter, American Typewriter" font-size="38" font-weight="normal" letter-spacing="10" fill="#FFFFFF">
-                        <tspan x="66.691" y="44">{{data.text || '___'}}</tspan>
-                        <!-- <tspan x="169.309" y="44" letter-spacing="0.759999871"></tspan> -->
+                        <tspan x="66.691" y="44">000</tspan>
+                        <tspan x="169.309" y="44" letter-spacing="0.759999871"></tspan>
                     </text>
                 </g>
             </g>

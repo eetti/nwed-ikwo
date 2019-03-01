@@ -14,7 +14,17 @@ angular.module('starter.controllers', ['ngCordova'])
     // Key pad directive scope and functions.
     $scope.data = {text:"___"};
     $scope.updateFn = function(msg) {
-        alert(msg);
+      console.log(msg);
+      if(msg=='bksp'){
+        $scope.doErase();
+        $scope.data.text = $scope.number;
+      }else if(msg=='go'){
+        $scope.go();
+      }else{
+        $scope.keyboardSettings.action(msg);
+        $scope.data.text = $scope.number;
+      }
+        // alert(msg);
     }
 
     $scope.keyboardSettings = {
@@ -279,7 +289,29 @@ angular.module('starter.controllers', ['ngCordova'])
 
 })
 
-.controller('hymnCtrl', function($scope, $state, $stateParams, $cordovaToast, $localStorage, $localstorage) {
+.controller('SearchCtrl',function($scope, $state, $stateParams, $cordovaToast, $localStorage,$cordovaSQLite,$ionicPlatform){
+  $scope.items =[{id:1,content:"hello"},{id:2,content:"hello"},{id:4,content:"hello"}];
+
+  $ionicPlatform.ready(function () {
+    var db = $cordovaSQLite.openDB({ name: "my.db" });
+    // for opening a background db:
+    // var db = $cordovaSQLite.openDB({ name: "my.db", bgType: 1 });
+  });
+  $scope.go = function(a) {
+      var c = a;
+      if (c != '' && c != 0 && c != '0') {
+          $state.go('app.ertti', { name: c });
+      } else {
+          $cordovaToast.show('highest number of hymns available is ' + numberOfHymns + ' ' + c + ' is invalid', 'short', 'center').then(function(success) {
+              console.log("The toast was shown");
+          }, function(error) {
+              console.log("The toast was not shown due to " + error);
+          });
+      }
+  };
+})
+
+.controller('hymnCtrl', function($scope, $state, $stateParams, $cordovaToast,$localstorage) {
 
     $scope.number = $stateParams.name;
     $scope.bookmarks = $localstorage.getObject('post');

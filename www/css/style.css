@@ -14,6 +14,7 @@
     background-color: transparent!important
 }
 
+
 .dialer {
     overflow: hidden;
     text-align: center;
@@ -198,7 +199,7 @@ body {
 
 
 /**
- * Text Slider Directive - CSS  
+ * Text Slider Directive - CSS
  **/
 
 .text-size-slider {
@@ -376,6 +377,7 @@ ion-pane#login-1 input[type="button"] {
     font-weight: bold;
 }
 
+
 @media screen and (min-width: 310px) and (min-height: 540px) {
     #login-inner {
         position: relative;
@@ -472,7 +474,7 @@ ion-pane#login-1 input[type="button"] {
     }
 }
 /*.current span,.current i{
-    
+
 }*/
 $SIDEMENU_TRANSPARENCY: rgba(255,255,255,0.4);
 .current{

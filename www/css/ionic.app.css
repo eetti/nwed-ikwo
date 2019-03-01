@@ -9976,8 +9976,12 @@ body {
   font-weight: normal;
   margin: 10; }
 
+.svg{
+    height: 100%;
+}
+
 /**
- * Text Slider Directive - CSS  
+ * Text Slider Directive - CSS
  **/
 .text-size-slider {
   line-height: 100%;
@@ -10202,7 +10206,7 @@ ion-pane#login-1 input[type="button"] {
       background: #0e141b; }
 
 /*.current span,.current i{
-    
+
 }*/
 .current {
   margin-left: 0px !important;
